@@ -1,5 +1,5 @@
 import numpy as np
-# https://g.co/gemini/share/b583ea78f812
+# https://g.co/gemini/share/b583ea78f812 reference link of gemini
 def annotate_remaining_cells(raw_data: str):
     """
     Automates table cell annotation based on initial labelImg data.
@@ -130,3 +130,4 @@ for i, row in enumerate(newly_annotated_rows):
         x, y, w, h = cell
 
         print(f"0 {x:.6f} {y:.6f} {w:.6f} {h:.6f}")
+
